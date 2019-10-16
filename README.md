@@ -13,5 +13,5 @@ I have 2 different tests in `App.test.js` file. I want to use the mocked module 
 1. Clone this repo.
 2. Run `yarn` to install dependencies.
 3. Run `yarn test` to run test.
-4. In `App.test.js`, if there is `jest.mock()`, the test **1 - with mocked module** will pass but the test **2 - with original module** will fail.
-5. If there is not `jest.mock()`, the test **1 - with mocked module** will fail but the test **2 - with original module** will pass.
+4. In `App.test.js`, if there is `jest.mock()`, the test _1 - with mocked module_ will pass but the test _2 - with original module_ will fail.
+5. If there is not `jest.mock()`, the test _1 - with mocked module_ will fail but the test _2 - with original module_ will pass.
