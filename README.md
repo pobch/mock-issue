@@ -45,4 +45,5 @@ https://stackoverflow.com/a/53166827/6568503
 
 ## Learn More
 
-- [mockImplementation VS mockImplementationOnce](https://techblog.topdesk.com/coding/frontend-testing-with-jest-mocks/)
+- [Jest's mockImplementation VS mockImplementationOnce](https://techblog.topdesk.com/coding/frontend-testing-with-jest-mocks/)
+- [require VS import in Jest](https://medium.com/trabe/mocking-different-values-for-the-same-module-using-jest-a7b8d358d78b)
