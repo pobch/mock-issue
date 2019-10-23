@@ -16,7 +16,9 @@ I have 2 different tests in `App.test.js` file. I want to use the mocked module 
 4. In `App.test.js`, if there is `jest.mock()`, the test _"1 - with mocked module"_ will pass but the test _"2 - with original module"_ will fail.
 5. On the other hand, if there is not `jest.mock()`, the test _"1 - with mocked module"_ will fail but the test _"2 - with original module"_ will pass.
 
-## Solution
+## Solutions
+
+### 1st Option (Implemented in this repo)
 
 From this [issue](https://github.com/facebook/jest/issues/2649#issuecomment-360467278)
 
@@ -36,3 +38,11 @@ From this [issue](https://github.com/facebook/jest/issues/2649#issuecomment-3604
    ```javascript
    mockMyModule.mockReset()
    ```
+
+### 2nd Option
+
+https://stackoverflow.com/a/53166827/6568503
+
+## Learn More
+
+- [mockImplementation VS mockImplementationOnce](https://techblog.topdesk.com/coding/frontend-testing-with-jest-mocks/)
