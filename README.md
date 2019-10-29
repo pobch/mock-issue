@@ -43,6 +43,10 @@ From this [issue](https://github.com/facebook/jest/issues/2649#issuecomment-3604
 
 https://stackoverflow.com/a/53166827/6568503
 
+### 3rd Option
+
+Just make a separate test file. One that uses the mock and the other that doesn't.
+
 ## Learn More
 
 - [Jest's mockImplementation VS mockImplementationOnce](https://techblog.topdesk.com/coding/frontend-testing-with-jest-mocks/)
